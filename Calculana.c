@@ -34,7 +34,7 @@ int main(int argc, char *argv[])
     }
     scanf("%d",&nombre2);
     if (Language == 1) {
-        printf("Donner moi maintenant le symbole de calcule sachant que 1 = addition, 2 = soustraction, 3 = division, 4 = multiplication :\n ");
+        printf("Donner moi maintenant le symbole de calcule sachant que :\n 1 = addition, 2 = soustraction, 3 = division, 4 = multiplication :\n ");
     }
     if (Language == 2) {
         printf("Now give me the calculation symbol knowing that 1 = addition, 2 = subtraction, 3 = division, 4 = multiplication :\n ");
