@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
     
     int Language, resultat = 0, nombre1 = 0, nombre2 = 0, Symboledecalcule;  //variable composant le code
     
-    printf("choisir le language : ");
+    printf("Choose your language / choisis ton language : \n 1 = Fr / 2 = Eng : ");
     scanf("%d", &Language);
     if (Language == 1) {
         printf("Bonjour, je suis calculana aucun chiffre ni Nombre ne peut me resister, essayer pour voir :\n ");
@@ -70,4 +70,3 @@ int main(int argc, char *argv[])
     return 0;  //je demande au programe de me renvoyer 0 pour m'assurer que tout c'est passer comme prevu;
     
 }
-
